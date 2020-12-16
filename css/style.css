@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+/*navbar*/
+#top-header{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px 50px;
+   
+}
+
+#top-header img {
+    width: 9%;
+    min-width: 110px;
+}
+
+.navbar ul li{ 
+    text-transform: uppercase;
+    font-family: 'arial black', serif;
+    font-style: italic;
+    display: inline-block;
+    color: black;
+    font-size: 28px;
+    margin-right: 22px;
+}
+
+.navbar ul li:hover{
+    color: grey;
+}
+
+/*container*/
+#container-main{
+    width: 100%;
+    height: 70vh;
+   
+}
+
+.container{
+    width: 100%;
+    height: 70vh;
+    background-image: url('../img/template1.jpg');
+    background-size: cover;
+    border: 2px solid black;
+}
+
+.container-info{
+    padding: 100px;
+}
+
+.container-info h1{
+    font-family: 'Arial Black' , sans-serif;
+    font-style: italic;
+    font-size: 80px;
+    text-shadow: 5px 6px grey;
+    letter-spacing: -8px;
+}
+
+.container-info p{
+    font-size: 35px;
+
+}
+
+/*produtos*/
+
+#produtos{
+    width: 100%;
+    height: 70vh;
+}
+
+#produtos h2{
+    text-align: center;
+    margin: 80px 0 50px 0;
+    font-size: 40px;
+}
+
+.produtos-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.item-produtos{
+    width: 35%;
+    text-align: center;
+
+}
+
+.item-produtos:nth-child(1){
+    margin-right: -50px;
+}
+
+.item-produtos:nth-child(3){
+    margin-left: -50px;
+}
+
+.item-produtos h3{
+    font-family: 'arial', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.item-produtos p{
+    font-size: 22px;
+
+}
+
+.item-produtos img{
+    border: 2px solid black;
+    width: 80%;
+    border-radius: 50px;
+}
+
+#produtos input[type=submit]{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 20%;
+    min-width: 180px;
+    height: 40px;
+    position: relative;
+    left: 40%;
+    margin: 20px 0;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    
+}
+
+/* video */
+.video{
+    width: 100%;
+}
+
+/* quem somos */
+
+#produtos{
+    width: 100;
+    height: 700px;
+}
+#quem-somos{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    align-items: center;
+}
+
+.container-loja{
+    width: 40%;
+    height: auto;
+}
+
+.container-loja span{
+    font-family: 'lobster',sans-serif;
+    font-style: italic;
+}
+
+.container-loja h3{
+    font-family: 'arial', sans-serif;
+    font-size: 40px;
+
+}
+
+.container-loja p{
+    padding: 40px;
+    text-align: justify;
+}
+
+.container-loja input[type=submit]{
+    border: none;
+    outline: none;
+    width: 35%;
+    min-width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+
+.quem-somos-img{
+    background-image: url('../img/mobile.jpg');
+    background-size: cover;
+    width: 50%;
+    min-width: 400px;
+    height: 400px;
+}
+
+/* contato */
+/* rodape */
+#contato{
+    background-color: black;
+    text-align: center;
+}
+
+.formulario{
+    color: white;
+    padding: 50px 0;
+}
+
+.formulario form{
+    text-align: left;
+    margin:  10px auto;
+    width: 60%;
+
+}
+
+form input[type=text]::placeholder, form input[type=email]::placeholder{
+    color: white;
+}
+
+form input[type=text], form input[type=email]{
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    background-color: black;
+    border-bottom: 3px solid red;
+    margin-bottom: 10px;
+}
+
+form input[type=submit]{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin-top: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+
+.redes-sociais h3{
+    color: white;
+    font-size: 22px;
+}
+
+.redes-sociais p{
+    padding: 20px 0;
+    color: white;
+}
+
+.redes-sociais{
+    width: 50%;
+    margin: auto;
+}
+
+.img-redessociais{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.img-redessociais .item:nth-child(1){
+   position: relative;
+   left: 10%;
+   
+}
+
+.img-redessociais .item:nth-child(3){
+   position: relative;
+   right: 10%;
+   
+ }
+
+.item img{
+    width: 30%;
+}
+

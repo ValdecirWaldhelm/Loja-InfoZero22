@@ -1,0 +1,19 @@
+@media screen and (max-width: 920px){
+    .navbar ul{
+        word-spacing: 20px;
+    }
+
+    .navbar ul li{
+        /* display: inline-block;
+        color: rgb(214, 0, 0);
+        text-shadow: 1px 1px black; */
+        font-size: 22px;
+    }
+
+    .container-info{
+        padding: 50px;
+    }
+
+
+    
+}
