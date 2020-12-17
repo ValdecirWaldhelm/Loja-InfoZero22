@@ -9,9 +9,6 @@
     }
 
     .navbar ul li{
-        /* display: inline-block;
-        color: rgb(214, 0, 0);
-        text-shadow: 1px 1px black; */
         font-size: 22px;
     }
 
@@ -77,6 +74,11 @@
 }
 
 @media screen and (max-width: 590px){
+
+    #top-header{
+        padding: 10px 15px;
+       
+    }
 
     .produtos-container{
         display: flex;

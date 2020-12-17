@@ -25,5 +25,6 @@
              menu.classList.remove('show');
          }
  
- 
  });
+
+    document.getElementById('Myvideo').play();
