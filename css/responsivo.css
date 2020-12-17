@@ -1,4 +1,9 @@
-@media screen and (max-width: 920px){
+@media screen and (max-width: 950px){
+
+    .navbar .desktop ul li{ 
+        font-size: 22px;
+    }
+
     .navbar ul{
         word-spacing: 20px;
     }
@@ -13,7 +18,141 @@
     .container-info{
         padding: 50px;
     }
+   
+}
 
+@media screen and (max-width: 890px){
+
+    .navbar .desktop{
+        display: none;
+    }
+
+    .icon-menu{
+        /* display: none; */
+        display: block;
+       
+    }
+
+    .container-info h1{
+        font-size: 50px;
+        
+    }
+
+    .container-info{
+        padding: 50px;
+    }
+
+    .produtos-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+
+    .item-produtos:nth-child(1){
+        margin-right: 0;
+    }
+    
+    .item-produtos:nth-child(3){
+        margin-left: 0;
+    }
+    
+    .item-produtos{
+        width: 50%;
+    
+    }
+
+    .item-produtos img{
+        border: 2px solid black;
+        width: 80%;
+        border-radius: 50px;
+        margin: 20px;
+    }
+
+    .item img{
+        width: 50%;
+    }
+
+   
+}
+
+@media screen and (max-width: 590px){
+
+    .produtos-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .item-produtos{
+        width: 100%;
+        text-align: center;
+    
+    }
+
+    .item-produtos img{
+        border: 2px solid black;
+        width: 60%;
+        border-radius: 50px;
+        margin: 20px;
+    }
+
+    #quem-somos{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .container-loja{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding-bottom: 20px;
+    }
 
     
+    .redes-sociais{
+        width: 100%;
+        margin: auto;
+    }
+
+    .img-redessociais{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    
+    .img-redessociais .item:nth-child(1){
+       position: relative;
+       left: 0%;
+       
+    }
+    
+    .img-redessociais .item:nth-child(3){
+       position: relative;
+       right: 0%;
+       
+     }
+
+     .formulario form{
+        text-align: left;
+        margin:  10px auto;
+        width: 100%;
+    
+    }
+    
+    .item img{
+        width: 45%;
+    }
+
+    .quem-somos-img{
+        width: 50%;
+        min-width: 350px;
+        height: 400px;
+    }
+    
+
 }

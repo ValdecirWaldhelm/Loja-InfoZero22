@@ -20,11 +20,23 @@
                             <a href="#quem-somos"><li>Quem somos</li></a>
                             <a href="#produtos"><li>Produtos</li></a>
                             <a href="#contato"><li>Contato</li></a>
-                           
-                      
                         </ul>
                     </nav>
                 </div> <!--desktop-->
+
+                        <div class="icon-menu"></div>
+
+                        <div class="mobile menu hide" id="menu">
+                        
+                                <a href="#top-header"><li>Home</li></a>
+                                <a href="#quem-somos"><li>Quem Somos</li></a>
+                                <a href="#produtos"><li>Produtos</li></a>
+                                <a href="#contato"><li>Contato</li></a>  
+                              
+                        <!--mobile-->
+                    
+
+               
             </div> <!--navbar-->
     </header> <!--Top-header-->
 
@@ -55,9 +67,11 @@
                 <h3>Carregador Supercharger</h3>
                 <p>Produto em Estoque</p>
             </div> <!--item-produtos-->
-        </div> <!--class-container--> 
+        </div> <!--produtos-container--> 
 
-        <a href="https://www.instagram.com/info022/?hl=pt-br" target="_blank"><input type="submit" value="Veja Nossa Loja"></a>
+        <div class="button-loja">
+            <a href="https://www.instagram.com/info022/?hl=pt-br" target="_blank"><input type="submit" value="Veja Nossa Loja"></a>
+        </div> <!--button-loja-->
     </section> <!--produtos-->
 
     <section id="media"> 
@@ -81,8 +95,10 @@
         <div class="formulario">
         <h2>Entre em contato conosco</h2>
             <form method="post" id="fContato" action="mailto:zero22Info@gmail.com" target="_blank">
-                <input type="text" name="nome" placeholder="Insira seu nome*">
-                <input type="email" name="email" placeholder="Insira seu email*">
+                <input type="text" name="nome" placeholder="Insira seu nome*" required>
+                <input type="email" name="email" placeholder="Insira seu email*" required>
+                <input type="telefone" placeholder="Digite seu Telefone*" required />
+                <textarea name="" id="" cols="30" rows="10" placeholder="Fale Conosco" required></textarea>
                 <br>
                 <input type="submit" value="Enviar">
             </form>
@@ -104,6 +120,7 @@
         </div> <!--redes-sociais-->
     </footer><!--contato-->
 
+    <script src="js/config.js"></script>
 
 </body>
 </html>
