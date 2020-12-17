@@ -48,8 +48,8 @@ html{
 /* menu mobile */
 
 .icon-menu{
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     background-image: url('../img/cardapio.png');
     background-size: 100%;
     background-repeat: no-repeat;
